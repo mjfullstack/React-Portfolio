@@ -1,0 +1,152 @@
+
+[
+    {
+        "id": 1,
+        "name": "MealGenie",
+        "contrib": "Group Project",
+        "shortDesc": "Food / Drink Paring",
+        "techs": [
+            "html5",
+            "css",
+            "JavaScript",
+            "jQuery",
+            "bootstrap",
+            "Firebase"
+        ],
+        "repoURL": "https://github.com/mjfullstack/CodeMonkeysMealGenie",
+        "deployedURL": "https://mjfullstack.github.io/CodeMonkeysMealGenie/",
+        "appImage": "./assets/images/MealGenie.png"
+    },
+    {
+        "id": 2,
+        "name": "Train Schedule App",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "Firebase Project",
+        "techs": [
+            "html5",
+            "css",
+            "JavaScript",
+            "jQuery",
+            "Firebase"
+        ],
+        "repoURL": "https://github.com/mjfullstack/TrainSched",
+        "deployedURL": "https://mjfullstack.github.io/TrainSched/",
+        "appImage": "./assets/images/AllAboardTrainApp.png"
+    },
+    {
+        "id": 3,
+        "name": "Snow White Hangman",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "Beginning Javascript",
+        "techs": [
+            "html5",
+            "css",
+            "JavaScript"
+        ],
+        "repoURL": "https://github.com/mjfullstack/Word-Guess-Game",
+        "deployedURL": "https://github.com/mjfullstack/Word-Guess-Game/",
+        "appImage": "./assets/images/HangADwarf.png"
+    },
+    {
+        "id": 4,
+        "name": "GifTastic App",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "API Data Retrieval",
+        "techs": [
+            "html5",
+            "css",
+            "JavaScript",
+            "jQuery",
+            "modals"
+        ],
+        "repoURL": "https://github.com/mjfullstack/GifTastic",
+        "deployedURL": "https://mjfullstack.github.io/GifTastic/",
+        "appImage": "./assets/images/GifTastic.png"
+    },
+    {
+        "id": 5,
+        "name": "Star Wars RPG Game",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "jQuery Role Playing",
+        "techs": [
+            "html5",
+            "css",
+            "JavaScript",
+            "jQuery"
+        ],
+        "repoURL": "https://github.com/mjfullstack/Unit-4-Game",
+        "deployedURL": "https://mjfullstack.github.io/Unit-4-Game/",
+        "appImage": "./assets/images/StarWarsRPG.png"
+    },
+    {
+        "id": 6,
+        "name": "Sugar Rush!",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "Javascript Project",
+        "techs": [
+            "html5",
+            "css",
+            "JavaScript",
+            "moment.js"
+        ],
+        "repoURL": "https://github.com/mjfullstack/TriviaGame",
+        "deployedURL": "https://mjfullstack.github.io/TriviaGame/",
+        "appImage": "./assets/images/SugarRush.png"
+    },
+    {
+        "id": 7,
+        "name": "Portfolio Website",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "Bootstrap Project",
+        "techs": [
+            "html5",
+            "css",
+            "JavaScript",
+            "bootstrap"
+        ],
+        "repoURL": "https://github.com/mjfullstack/Bootstrap-Portfolio",
+        "deployedURL": "https://mjfullstack.github.io/Bootstrap-Portfolio/",
+        "appImage": "./assets/images/Portfolio.png"
+    },
+    {
+        "id": 8,
+        "name": "Friend Finder",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "Connect Front & Back",
+        "techs": [
+            "html5",
+            "bootstrap",
+            "JavaScript",
+            "jQuery",
+            "node.js",
+            "express",
+            "package.json",
+            "npm"
+        ],
+        "repoURL": "https://github.com/mjfullstack/FriendFinder",
+        "deployedURL": "https://limitless-reaches-17156.herokuapp.com/",
+        "appImage": "./assets/images/FriendFinder.png"
+    },
+    {
+        "id": 9,
+        "name": "Eat-Da-Burger",
+        "contrib": "Sole Contributor HW",
+        "shortDesc": "First Fullstack App",
+        "techs": [
+            "html5",
+            "bootstrap",
+            "JavaScript",
+            "jQuery",
+            "node.js",
+            "express",
+            "package.json",
+            "npm",
+            "MySQL",
+            "Heroku"
+        ],
+        "repoURL": "https://github.com/mjfullstack/BurgerRemoteDB",
+        "deployedURL": "https://ancient-thicket-75290.herokuapp.com/",
+        "appImage": "./assets/images/Eat-Da-Burger.png"
+    }
+]
+

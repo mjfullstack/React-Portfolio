@@ -1,0 +1,50 @@
+body, .wrapper {
+  text-align: justify;
+  font-size: 14pt; 
+  line-height: 1.5;
+}
+
+body {
+  background-image: url(./images/background-2660437_960_720.jpg);
+  background-repeat: repeat ;
+}
+
+.wrapper {
+  background-image: url(./images/FreeVector-Burgundy-Swirls-Background.jpg);
+  background-repeat: repeat ;
+}
+
+/* .img-container { */
+.item-image {
+  /* max-width: 13rem; */
+  /* max-height: 13rem; */
+  /* margin-bottom: 30px; */
+  margin: 10px;
+  width:90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-card {
+  background-color:#46001c;
+  margin: 2%;
+  padding: 2%;
+  text-align: left;
+  color: rgb(224, 191, 4);
+  /* color: #46001c !important; */
+  /* font-weight: bolder; */
+  font-size: 12pt; 
+  line-height: 1.0;
+}
+
+.myBullet, .myRepo, .myDeployed {
+  /* display: block; */
+  text-align: left;
+  color: rgb(224, 191, 4);
+  /* color: #46001c !important; */
+  /* font-weight: bolder; */
+  font-size: 12pt; 
+  line-height: 1.5;
+}

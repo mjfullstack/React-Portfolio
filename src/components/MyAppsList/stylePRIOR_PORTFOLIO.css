@@ -1,0 +1,302 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* NAVBAR with Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+
+.footer {
+  position: fixed; /* Had to change this from relative from bootstrap */
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 20px; /* Vertically center the text there */
+  text-align: center;
+  background-color: #46001c;
+}
+
+.my-footer-text-muted {
+  /* !Important required to override, even with unique class */
+  color: rgba(247, 206, 102, 0.699) !important;
+}
+  
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+body > .container {
+  padding: 90px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* My additions... */
+/* ----------------------------------------------------- */
+.fixed-top, .navbar-brand, .nav-link  {
+  color: rgb(247, 206, 102) !important;
+  font-weight: bolder;
+  background-color: #46001c;
+  /* text-align: right; */
+}
+
+.by-line {
+  font-weight: normal;
+  font-size: 10pt;
+  text-align: center;
+  color: rgb(247, 206, 102);
+}
+
+.my-name {
+  font-size: 22pt;
+  font-style: italic;
+  text-align: left;
+  padding-right: 100px;
+}
+
+/* From / for my wireframe exercise */
+body {
+  background-image: url(../images/background-2660437_960_720.jpg);
+  background-repeat: repeat ;
+  text-align: justify;
+  font-size: 14pt; 
+  line-height: 1.5;
+}
+
+.my-div-blocks {
+  background-color: #46001c;
+  /* border: 2px solid red; */
+  /* color: white; */
+  margin: 30px 5px;
+  color: rgb(247, 206, 102);
+}
+
+#bio-image {
+  float: left;
+  margin: 30px;
+  max-width: 25%;
+}
+
+#free-vector {
+  float: right;
+}
+
+.bottom-nav-border{
+  border-bottom: 6px solid rgb(247, 206, 102);
+}
+
+.top-footer-border{
+  border-top: 6px solid rgb(247, 206, 102);
+}
+
+.p-desc {
+  padding-top: 20px;
+}
+
+
+div {
+  padding: 10px 10px;
+  margin: 1%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#app-link, #repo-link {
+  /* display: block; */
+  text-align: center;
+  color: rgb(224, 191, 4);
+  /* color: #46001c !important; */
+  font-weight: bolder;
+  font-size: 12pt; 
+  line-height: 1.0;
+}
+
+.app-image {
+  /* max-width: 17rem;
+  max-height: 17rem; */
+  margin-bottom: 30px;
+  width:100%;
+  height:auto;
+}
+
+/***************/
+/* MODALS CODE */
+/***************/
+.modal,
+.modal-box {
+z-index: 900;
+}
+
+.modal-sandbox {
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+/* background: transparent; */
+}
+
+.modal {
+display: none; 
+/* position: fixed; */
+position: center;
+width: 80%;
+height: 80%;
+left: 10%;
+top: 10%;
+background: rgb(0,0,0);
+/* background: rgba(0,0,0,.8); */
+overflow: auto;
+}
+
+.modal-box {
+position: relative;
+width: 80%;
+max-width: 920px;
+/* margin: 100px auto; */
+animation-name: modalbox;
+animation-duration: .4s;
+animation-timing-function: cubic-bezier(0,0,.3,1.6);
+}
+
+.modal-header {
+padding: 20px 40px;
+background: #546E7A;
+color: #ffffff;
+}
+
+.modal-body {
+background: #ECEFF1;
+padding: 60px 40px;
+}
+
+/* Animation */
+.modal-content, #caption {    
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+}
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+.modal-trigger, button {
+top: 50%;
+left: 50%;
+padding: 20px 40px;
+background: transparent;
+color: #ffffff;
+border: 1px solid #ffffff;
+text-decoration: none;
+}
+
+.modal-trigger {
+/* position: absolute; */
+/* border: 4px solid red; */
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+transition: ease .2s;
+}
+
+button {
+/* border: 1px solid #333333; */
+/* border: 4px solid red; */
+outline: none;
+color: #333333;
+}
+
+.modal-trigger:hover {
+padding: 20px 60px;
+/* border: 4px solid red; */
+}
+
+/* Close Button */
+/* .close-modal {
+  text-align: right;
+  cursor: pointer;
+  } */
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+  }
+  
+  
+
+
+
+/*****************************************/
+/* Media Queries */
+/*****************************************/
+@media only screen and (max-width: 576px) {
+  .my-div-blocks {
+    margin: 60px 5px;
+    /* color: rgb(247, 206, 102); */
+  }
+}
+
+@media only screen and (max-width: 406px) {
+  .my-div-blocks {
+    margin: 120px 5px;
+    /* color: rgb(247, 206, 102); */
+  }
+}
+
