@@ -24,19 +24,19 @@ function MyAppCard(props) {
           <p className="myBullet">
             <strong>Description: </strong> &nbsp; {props.shortDesc}
           </p>
-          <span>
+          <p><span>
             <strong>GitHub Repo: </strong> &nbsp; 
             <a className="myRepo" target="_blank" rel="noopener noreferrer" href={props.repoURL}>
               {props.name}
             </a>
-          </span>
-          <br />
-          <span>
+          </span></p>
+          {/* <br /> */}
+          <p><span>
             <strong>Deployed: </strong> &nbsp; 
             <a className="myDeployed" target="_blank" rel="noopener noreferrer" href={props.deployedURL}>
               Start&nbsp;{props.name}!
             </a>
-          </span>
+          </span></p>
         </div>
       </div>
     </div>
